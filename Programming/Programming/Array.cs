@@ -2,6 +2,7 @@
 {
     public class Array
     {
+        //Given two sorted arrays, the method will merge them in a sorted manner
         public static int[] MergeSortedArrays(int[] arr1, int[] arr2)
         {
             int arrayLength = arr1.Length + arr2.Length;
